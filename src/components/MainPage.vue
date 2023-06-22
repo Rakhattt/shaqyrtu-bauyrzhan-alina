@@ -28,7 +28,7 @@
                             </div>
                             <div class="toi7"></div>
                             <div class="toi4">
-                                Тойдың басталу уақыты:<br>
+                                Тойдың басталу уақыты: <strong>17:00</strong><br>
                                 28.06.2023
                             </div>
                             <div style="    width: 100%;">
