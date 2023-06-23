@@ -99,12 +99,12 @@
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import axios from 'axios';
-import Toast from '@/components/Toast.vue';
+// import Toast from '@/components/Toast.vue';
 import AudioPlayer from './AudioPlayer.vue';
 import VerticalTimeline from './VerticalTimeline.vue';
 export default{
     components: {
-        Toast,
+        // Toast,
         AudioPlayer,
         VerticalTimeline
     },
@@ -144,10 +144,10 @@ export default{
                 text: message,
             })
             .then(response => {
-                // console.log('Message sent successfully:', response.data);
+                console.log('Message sent successfully:', response.data);
             })
             .catch(error => {
-                // console.error('Error sending message:', error);
+                console.error('Error sending message:', error);
             });
             // let  = document.querySelector('input[name="zhauap"]:checked').value;
             document.getElementsByClassName('inputname')[0].value = ''
