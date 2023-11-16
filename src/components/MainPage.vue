@@ -223,9 +223,9 @@ export default{
             
             // $dayscontent2.textContent = $days.textContent;
             
-            var discountprice = 18900 - 18900 * parseInt($days.textContent) / 100;
-            discountprice = Math.round(discountprice / 10) * 10;
-            discountprice = String(discountprice).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, "$1 ");
+            // var discountprice = 18900 - 18900 * parseInt($days.textContent) / 100;
+            // discountprice = Math.round(discountprice / 10) * 10;
+            // discountprice = String(discountprice).replace(/(\d)(?=(\d{3})+([^\d]|$))/g, "$1 ");
             // $(".discountprice").text(discountprice);
             // const $dayscontent.dataset.title = $days.textContent;
             // вызываем функцию countdownTimer каждую секунду
